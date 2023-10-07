@@ -48,7 +48,7 @@ if (x.strftime("%x"))>(g.strftime("%x")):
  print('\n\n')
  print(x)
  
- sys.exit(0)
+ 
  
 
 if (x.strftime("%x"))==(g.strftime("%x")):
@@ -59,8 +59,7 @@ if (x.strftime("%x"))==(g.strftime("%x")):
     print('\n\n')
     print(x)
     
-    sys.exit(0)
-   else:
+    
     print('')  
 else:
     print('')
