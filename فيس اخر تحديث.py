@@ -73,9 +73,7 @@ print()
 print(J+'━'*40)
 print()
 
-print('\x1b[0;34m تم انتهاء المدة المجانيه للاشتراك قم بل تواصل مع المطور @R_M_D ')
 
-exit()
    
 import webbrowser
 webbrowser.open('')
