@@ -1,6 +1,4 @@
-print('\033[1;32m خلصت الفتره التجريبيه @R_M_D')
- 
- exit()
+
 
 #-------------------#
 Z = '\033[1;31m' 
@@ -88,7 +86,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 10, 14, 0, 0 )
+g= datetime.datetime(2023, 10, 20, 0, 0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
@@ -203,7 +201,7 @@ time3 = time.strftime('''%H:%M:%S''')
 print(f'''{F}[استمتع بوقتك] ''')
 print(f'''{Z}:[التاريخ]{C}[{time2}]''')
 print(f'''{C}:[الوقت] {Z} [{time3}]''')
-token=('6553308667:AAFQ8y17iM7G5CAe1ci6JegO96I9OEpeCiY')
+token=('6364013234:AAEs4nhgGfhpR9-s1FGFxDJpIwxPNXDbPCc')
 print('\033[2;35m')
 print(' ━━━━━━━━━━━━━━━━━━━━━ ')
 print()
