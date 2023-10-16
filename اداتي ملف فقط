@@ -960,7 +960,7 @@ def menu(my_name,my_id):
 	print('\033[2;35m')
 	#print('%s[%s1%s]%s CRACK PUBLIC : مــن اﻻصــدقــاء %s[%sON%s]'%(P,H,P,H,P,H,P))	
 	#print('%s[%s2%s]%s CRACK FOLLOWERS : مــن الــمــتــابــعيـــن%s[%sON%s]'%(P,H,P,H,P,H,P))	
-	print('  %s[%s1%s]%s CRACK  FILE : مــن مــلــف %s[%sON%s]'%(P,H,P,H,P,H,P))	
+	print('  %s[%s1%s]%s CRACK  FILE : مــن مــلــف %s[%sOK%s]'%(P,H,P,H,P,H,P))	
 	#print('%s[%sA%s]%s CONTACT %s[%sأّلَمَطّوِر%s]'%(P,H,P,H,P,H,P))
 	print('  \033[0;36m» 0- login out : تــســجــﯧــل خــروج الڪــوڪــيـز   ')
 
