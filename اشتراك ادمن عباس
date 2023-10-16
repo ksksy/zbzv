@@ -205,7 +205,7 @@ print('')
 print(f'''{C}:[الوقت] {Z} [{time3}]''')
 
 print('')
-token=('6326886585:AAEuRQqhXKjODHOrpF8Q9pqcWPKSHswD_nA')
+token=('6675578881:AAFnWOFRGW85uYteCcGQW5WQjyUVLWzutKQ')
 print('\033[2;35m')
 print(' ━━━━━━━━━━━━━━━━━━━━━ ')
 print()
