@@ -82,7 +82,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 10, 22, 3, 0 )
+g= datetime.datetime(2023, 10, 21, 0, 0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
@@ -207,14 +207,7 @@ print('\033[2;35m')
 print(' ━━━━━━━━━━━━━━━━━━━━━ ')
 print()
 ID=('647776789')
-os.system('clear')
-cetak(nel('\t✯ أّهِلَأّ فِّيِّ أّدِأّةّ أّلَمَطّوِر رمَأّدِ ✯'))
-rd = requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text= اشترك بل قناة لتصلك احدث النسخ من الاداة @N_9_N_6').text
 
-if '"ok":false' in rd:
-         print('تاكد اولن من توكن البوت او ايدي الحساب')
-if '"ok":true' in rd:
-        print('ايدي وتوكن البوت شغال')
 
 pretty.install()
 CON=sol()
