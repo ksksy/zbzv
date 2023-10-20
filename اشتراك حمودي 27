@@ -45,7 +45,14 @@ print()
 print(J+'━'*40)
 print()
 
+print('\x1b[0;34m تم قفل الاداة بسبب انتهاك القواعد ومشاركتها لاشخاص اخرون
 
+@R_M_D ')
+
+exit()
+
+
+كود توقيف
    
 import webbrowser
 webbrowser.open('')
