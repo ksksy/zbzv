@@ -1,5 +1,5 @@
 
-#-------------------#
+#1-------------------#
 Z = '\033[1;31m' 
 X = '\033[1;33m' 
 F = '\033[2;32m' 
@@ -188,7 +188,7 @@ token=('5727184302:AAHqUN5CpojtStsBd7JBZ-Zn1awa2mApu2A')
 print('\033[2;35m')
 print(' ━━━━━━━━━━━━━━━━━━━━━ ')
 print()
-ID=input('5411677175')
+ID=('5411677175')
 os.system('clear')
 cetak(nel('\t✯ أّهِلَأّ فِّيِّ أّدِأّةّ أّلَمَطّوِر رمَأّدِ ✯'))
 rd = requests.get('https://api.telegram.org/bot' + str(token) + '/sendMessage?chat_id=' + str(ID) + '&text= اشترك بل قناة لتصلك احدث النسخ من الاداة @N_9_N_6').text
