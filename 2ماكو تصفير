@@ -56,9 +56,7 @@ print()
 print(J+'━'*40)
 print()
 
-print('\x1b[0;34m تم انتهاء المدة المجانيه للاشتراك قم بل تواصل مع المطور @R_M_D ')
 
-exit()
 
 
 
@@ -80,7 +78,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 10, 22, 3, 0 )
+g= datetime.datetime(2023, 10, 23, 0, 0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
@@ -135,7 +133,7 @@ try:
         
         import rich
 except ImportError:
-        cetak(nel('\t✯ أّهِلَأّ فِّيِّرأّدِأّةّ أّلَمَطّوِر رمَأّدِ ✯'))
+        cetak(nel('\t✯ أّهِلَأّ فِّيِّ أّدِأّةّ أّلَمَطّوِر رمَأّدِ ✯'))
         os.system('pip install rich')
 try:
         import stdiomask
