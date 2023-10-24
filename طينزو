@@ -65,7 +65,12 @@ from rich import pretty
 from rich.text import Text as tekz
 import os
 
+print('\x1b[0;34m تم انتهاء المدة المجانيه للاشتراك قم بل تواصل مع المطور @R_M_D ')
 
+exit()
+
+
+كود توقيف
 try:
 	import requests
 except ImportError:
