@@ -1,5 +1,4 @@
-import datetime
-now = import requests,time,pyfiglet,datetime
+import requests,time,pyfiglet,datetime
 now = datetime.datetime.today()
 
 now = datetime.datetime.today()
@@ -9,12 +8,12 @@ yyyy = str(now.year)
 hour = str(now.hour)
 mi = str(now.minute)
 ss = str(now.second)
-t=(mm + "/" + dd + "/" + yyyy + " " + heour + ":" + mi + ":" + ss)
+t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 10, 24, 4, 0 )
+g= datetime.datetime(2023, 10, 24, 5, 0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
