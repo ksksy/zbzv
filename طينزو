@@ -1,4 +1,7 @@
 import datetime
+now = import requests,time,pyfiglet,datetime
+now = datetime.datetime.today()
+
 now = datetime.datetime.today()
 mm = str(now.month)
 dd = str(now.day)
@@ -6,21 +9,42 @@ yyyy = str(now.year)
 hour = str(now.hour)
 mi = str(now.minute)
 ss = str(now.second)
-
-t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
+t=(mm + "/" + dd + "/" + yyyy + " " + heour + ":" + mi + ":" + ss)
 
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023,10  ,24 , 0, 0 ,0)
+g= datetime.datetime(2023, 10, 24, 4, 0 )
+
 
 if (x.strftime("%x"))>(g.strftime("%x")):
- print('\n\n')
- print("     "+' انتهئ التفعيل راسل المطور للحصول ع احدث نسخه@K_N_Z_O' )
- print('\n\n')
- print(x)
+ print('\033[1;32m تم ايقاف الاداه راسل المطور رماد لتفعيل ')
+ time.sleep(1)
+ print('\033[1;31m المطور رماد @R_M_D    ')
+ time.sleep(1)
+ print('\033[1;32m  ⚜️ 𝑹𝑴𝑨𝑫 ⚜️')
+ time.sleep(1)
+ print('\033[1;31m 1')
+ time.sleep(1)
+ print('\033[1;32m 2')
+ time.sleep(1)
+ print('\033[1;31m 3')
+ time.sleep(1)
+ print('\033[1;32m 4')
+ time.sleep(1)
+ print('\033[1;31m 5')
+ time.sleep(1)
+ print('\033[1;32m 6')
+ time.sleep(1)
+ print('\033[1;31m 7')
+ time.sleep(1)
+ print('\033[1;32m 8')
+ time.sleep(1)
+ print('\033[1;31m 9')
+ time.sleep(1)
+ print('\033[1;32m@R_M_D')
  
- sys.exit(0)
+ exit()
  
 
 import requests,bs4,json,os,sys,random,datetime,time,re
