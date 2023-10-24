@@ -1240,8 +1240,8 @@ def passwrd():
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
 	cetak(nel('\tتم انتهاء الفحص لا تنسا صور الصيد '))
-	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
-	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
+	#print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
+	#print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
 	print('>> اعادة تشغيل الاداة مرا اخرا ؟   ( Y/t ) ? ')
 	woi = input('>> يختار  : ')
@@ -1439,10 +1439,6 @@ def O():
 		exit()
 if __name__=='__main__':
 	try:os.system('git pull')
-	except:pass
-	try:os.mkdir('OK')
-	except:pass
-	try:os.mkdir('CP')
 	except:pass
 	try:os.mkdir('/sdcard/heroes-DUMP')
 	except:pass
