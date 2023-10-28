@@ -670,12 +670,12 @@ class Login:
         llogin()
 def fak_xy(u):
         for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.05)
-
-	 
+def clear():
+	os.system('clear')
 def back():
 	llogin()
-
-
+def banner():
+	print(f'''⚜️ 𝑹𝑴𝑨𝑫 ⚜️''')
 def llogin():
 	try:
 		token = open('.token.txt','r').read()
@@ -695,7 +695,7 @@ def llogin():
 		login_lagi334()
 def login_lagi334():
 	try:
-		 
+		os.system('clear')
 		banner()
 		ses = requests.Session()
 		cok = input('\n[!] Cookie Dane : ')
@@ -818,6 +818,7 @@ def login_lagi334():
 	except Exception as e:
 		print('\n[!] Cookies Invalid Bro...X')
 		os.system('rm -rf .cok.txt && rm -rf .token.txt')
+		
 		print(e)
 		exit()
 	except:pass
@@ -825,6 +826,8 @@ def login_lagi334():
 
 def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
+	os.system('clear')
+	banner()
 	
 	
 	
