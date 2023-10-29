@@ -976,7 +976,7 @@ def menu(my_name,my_id):
 	print(g67+'━'*67)
 	print('  {\x1b[1;32m0\x1b[1;36m} \x1b[38;5;196m𝐄𝐗𝐈𝐓       :   تسجيل خروج    ')
 	print(g67+'━'*67)
-	_____heros_____ = input('\n[=] 𝗖𝗛𝗢𝗦𝗘 ๛ ️:    /n  ')
+	_____heros_____ = input(f'\n[=] 𝗖𝗛𝗢𝗦𝗘 ๛ ️:   /n   ')
 	print('')
 	if _____heros_____ in ['1']:
 		dump_massal()
