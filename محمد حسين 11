@@ -202,7 +202,7 @@ print(f'''{C}: \x1b[38;5;92m 𝐓𝐇𝐄 𝐃𝐀𝐓𝐄 \x1b[1;38;5;121m ๛ 
 print('')
 print(f'''{C}: \x1b[38;5;92m 𝑇𝐻𝐸 𝑇𝐼𝑀𝐸 \x1b[1;38;5;121m ๛   \x1b[1;38;5;121m   𖣎 \x1b[1;96m{time3} \x1b[1;38;5;121m 𖣎''')
 print('')
-token=('.6779827591:AAEej9M6ku4Zop31lhcy-1LZ-ltyXKYSsCA')
+token=('6779827591:AAEej9M6ku4Zop31lhcy-1LZ-ltyXKYSsCA')
 print('\033[2;35m')
 print(' ━━━━━━━━━━━━━━━━━━━━━ ')
 print()
