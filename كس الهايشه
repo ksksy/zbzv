@@ -1,6 +1,47 @@
+import requests,time,datetime
+now = datetime.datetime.today()
 
- 
+now = datetime.datetime.today()
+mm = str(now.month)
+dd = str(now.day)
+yyyy = str(now.year)
+hour = str(now.hour)
+mi = str(now.minute)
+ss = str(now.second)
+t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
+
+hours = (now.hour)
+x = datetime.datetime.now()
+g= datetime.datetime(2023, 11, 12, 0, 0 )
+
+
+if (x.strftime("%x"))>(g.strftime("%x")):
+ print('\033[1;32m تم ايقاف الاداه راسل المطورة تبارك  للتفعيل ')
+ time.sleep(1)
+ print('\033[1;31m المطورة تبارك @tf_r7    ')
+ time.sleep(1)
+ print('\033[1;32m  @tf_r7')
+ time.sleep(1)
+ print('\033[1;31m 1')
+ time.sleep(1)
+ print('\033[1;32m 2')
+ time.sleep(1)
+ print('\033[1;31m 3')
+ time.sleep(1)
+ print('\033[1;32m 4')
+ time.sleep(1)
+ print('\033[1;31m 5')
+ time.sleep(1)
+ print('\033[1;32m 6')
+ time.sleep(1)
+ print('\033[1;31m 7')
+ time.sleep(1)
+ print('\033[1;32m 8')
+ time.sleep(1)
+ print('\033[1;31m 9')
+ time.sleep(1)
+ print('\033[1;32m@tf_r7')
 import requests,bs4,json,os,sys,random,datetime,time,re
 import threading
 import urllib3,rich,base64
@@ -141,11 +182,6 @@ def tool_bnr():
     sleep(.1)
     print(color(" +++++++++++++++++++++++++++++++++++++++++++++++++++++++"))
     print(" ")
-
-    print('\x1b[0;34m تم انتهاء المدة المجانيه للاشتراك قم بل تواصل مع المطور @tf_r7 ')
-
-exit()
-
 
 
 
@@ -1313,9 +1349,6 @@ def passwrd():
 					pwv.append('oooopppp')
 					pwv.append('00998877')
 					pwv.append('nnnnmmmm')
-					pwv.append('20202020')
-					pwv.append('20212021')
-					pwv.append('20222022')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -1348,9 +1381,6 @@ def passwrd():
 					pwv.append('07700770')
 					pwv.append('zzzzxxxx')
 					pwv.append('aaaassss')
-					pwv.append('20202020')
-					pwv.append('20212021')
-					pwv.append('20222022')
 					
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
@@ -1481,7 +1511,8 @@ def crack(idf,pwv):
 
 𖣘──────────────────𖣘
  ⊊𝗕𝗬⊋ ➩ @t_r67 -  @tf_r7
-
+بـالــعـافـية ♥🔥 [ @K_N_Z_O ]
+☫─────━الـ ڪــيـنزو 🔥━─────☫
 ✦ - Jumlah Teman : {teman}\n
 ✦ - Jumlah Pengikut : {pengikut}\n
 ✦ - Email Aktif : {email}\n
