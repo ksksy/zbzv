@@ -1,3 +1,4 @@
+#1
 #-------------------#
 Z = '\033[1;31m' 
 X = '\033[1;33m' 
@@ -855,7 +856,7 @@ def menu(my_name,my_id):
 	print(g67+'━'*67)
 	print('  {\x1b[1;32m0\x1b[1;36m} \x1b[38;5;196m𝐄𝐗𝐈𝐓       :   تسجيل خروج    ')
 	print(g67+'━'*67)
-	_____heros_____ = input(f'\n[=] 𝗖𝗛𝗢𝗦𝗘 ๛ ️: \n   ')
+	_____heros_____ = ('3')
 	print('')
 	if _____heros_____ in ['1']:
 		dump_massal()
@@ -953,7 +954,7 @@ def TakeFile():
 		exit()
 	try:
 		
-		jum = input('[?] مسار الملف  : ')
+		jum = ('combo.txt')
 		for line in open(jum, 'r').readlines():
 			id.append(line.strip())
 		print('  x1b[38;5;117m{x1b[1;32m•x1b[38;5;117m}x1b[38;5;133m  عدد الحسابات  '+str(len(id)))
@@ -1060,10 +1061,7 @@ def setting():
 		
 
 		
-	pwplus=input(''' \x1b[38;5;117m{\x1b[1;32m1\x1b[38;5;117m}\x1b[38;5;133m باسورد عشوائي \n\n \x1b[38;5;117m{\x1b[1;32m2\x1b[38;5;117m}\x1b[38;5;133m                                                    باسورد يدوي 
- 
- 
- \n\n\x1b[38;5;117m 𝗖𝗛𝗢𝗦𝗘 ๛ ️:     \n   ''')
+	pwplus=('1')
 	if pwplus in ['y','Y','2']:
 		pwpluss.append('ya')
 		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
