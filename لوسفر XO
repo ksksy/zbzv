@@ -1,4 +1,4 @@
-#-------------------#
+#1-------------------#
 Z = '\033[1;31m' 
 X = '\033[1;33m' 
 F = '\033[2;32m' 
@@ -66,6 +66,8 @@ print(''' \x1b[1;38;5;121m
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⡄⠈⠙⢿⣿⣿⣿⣿⠟⠋⣁⣤⠴⠚⠉⠁⠀⠀⠀⠀⠀⠀⠉⠲⢤⡀⠉⠉⠉⠉⠁⠀⠀⠀⠀⠀⠀⢀⣿⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⢿⣿⡄⠀⠀⢙⣹⣷⠶⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠦⣄⠀⠀⠀⠀⠀⠀⠀⠰⢚⡇⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⡾⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠂⠀⠀⠀⠀⠀⠈⠛⠃⠀⠀⠀⠀
+
+   لوسفر انيجك اذا كتلي ما تحدثت تمام؟  
 
 ''')
 
@@ -1109,51 +1111,48 @@ def passwrd():
 					pass
 				else:			    				 
 					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append('20232023')
-					pwv.append('112233445566')
-					pwv.append('1122334455')
-					pwv.append('123456')
-					pwv.append('12345@12345')
-					pwv.append('zzzzxxxx')
-					pwv.append('10203040')
-					pwv.append('1020304050')
-					pwv.append('1234512345')
-					pwv.append('00998877')
-					pwv.append('11223344')
-					pwv.append('١٢٣٤٥٦')
-					pwv.append('١٢٣٤٥٦٧٨٩٠')
+					pwv.append(frs+frs)
+					pwv.append("١٢٣٤٥٦")
+					pwv.append(frs+"12")
+					pwv.append(frs+"123")
+					pwv.append(frs+'1234')		
+					pwv.append(frs+'12345')		
 					pwv.append('19991999')
-					pwv.append('١٢٣٤٥٦٧٨٩')
-					pwv.append('20202020')
-					pwv.append('20212021')
-					pwv.append('zzxxccvv')
-					pwv.append('nnnnmmmm')
+					pwv.append('19981998')
+					pwv.append('19971997')
+					pwv.append('00998877')
+					pwv.append(frs+'123456')
+					pwv.append('0099887766')
+					pwv.append(frs+"123123")
+					pwv.append('11223344@@')
+					pwv.append('12345@@@@@')
+					pwv.append('123'+frs+'123')
+					pwv.append('1234'+frs+'1234')
+					pwv.append('12345'+frs+'12345')
+					
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
 					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append('20232023')
-					pwv.append('112233445566')
-					pwv.append('1122334455')
-					pwv.append('123456')
-					pwv.append('12345@12345')
-					pwv.append('zzzzxxxx')
-					pwv.append('10203040')
-					pwv.append('1020304050')
-					pwv.append('1234512345')
-					pwv.append('00998877')
-					pwv.append('11223344')
-					pwv.append('١٢٣٤٥٦')
-					pwv.append('١٢٣٤٥٦٧٨٩٠')
+					pwv.append(frs+frs)
+					pwv.append("١٢٣٤٥٦")
+					pwv.append(frs+"12")
+					pwv.append(frs+"123")
+					pwv.append(frs+'1234')		
+					pwv.append(frs+'12345')		
 					pwv.append('19991999')
-					pwv.append('١٢٣٤٥٦٧٨٩')
-					pwv.append('20202020')
-					pwv.append('20212021')
-					pwv.append('zzxxccvv')
-					pwv.append('nnnnmmmm')
+					pwv.append('19981998')
+					pwv.append('19971997')
+					pwv.append('00998877')
+					pwv.append(frs+'123456')
+					pwv.append('0099887766')
+					pwv.append(frs+"123123")
+					pwv.append('11223344@@')
+					pwv.append('12345@@@@@')
+					pwv.append('123'+frs+'123')
+					pwv.append('1234'+frs+'1234')
+					pwv.append('12345'+frs+'12345')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
