@@ -61,7 +61,9 @@ mi = str(now.minute)
 ss = str(now.second)
 t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
+print('\x1b[0;34m تم الانتهاء للاشتراك قم بل تواصل مع المطور @R_M_D ')
 
+exit()
 hours = (now.hour)
 x = datetime.datetime.now()
 g= datetime.datetime(2023, 11, 16,0, 0 )
