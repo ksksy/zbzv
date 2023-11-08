@@ -231,7 +231,8 @@ print('\033[2;35m')
 print(' ━━━━━━━━━━━━━━━━━━━━━ ')
 print()
 ID=input('  \x1b[38;5;117m{\x1b[1;32m•\x1b[38;5;117m}  𝐈𝐃 \x1b[1;38;5;121m ๛  \x1b[38;5;117m︎')
-
+import webbrowser
+webbrowser.open('https://t.me/N_9_N_6')
 pretty.install()
 CON=sol()
 ugen2=[]
