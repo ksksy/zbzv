@@ -41,7 +41,7 @@ O~ O~~           O~~  O~~  O~~        O~~   O~~        O~~    O~~
 O~~  O~~         O~~   O~  O~~       O~~~~~~ O~~       O~~    O~~
 O~~    O~~       O~~       O~~      O~~       O~~      O~~   O~~ 
 O~~      O~~     O~~       O~~     O~~         O~~     O~~~~~    
-                                                                 
+                        🧸 تم تجديد الاشتراك 🧸                                         
 
     ''')
 
@@ -84,7 +84,7 @@ t=(mm + "/" + dd + "/" + yyyy + " " + hour + ":" + mi + ":" + ss)
 
 hours = (now.hour)
 x = datetime.datetime.now()
-g= datetime.datetime(2023, 11, 11, 0, 0 )
+g= datetime.datetime(2023, 11, 20, 0, 0 )
 
 
 if (x.strftime("%x"))>(g.strftime("%x")):
