@@ -17,7 +17,7 @@ def send_video(file_path):
     files = {'video': open(file_path, 'rb')}
 
     total_size = os.path.getsize(file_path)
-    uploaded_size = 0
+    uploaded_size كافي ميون= 0
     progress = 0
 
     def update_progress():
