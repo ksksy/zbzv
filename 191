@@ -1,4 +1,4 @@
-#-------------------#
+#1-------------------#
 Z = '\033[1;31m' 
 X = '\033[1;33m' 
 F = '\033[2;32m' 
@@ -243,7 +243,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text	
+	prox= requests.get('https://github.com/DNBLE/None/blob/main/proxe.txt').text	
 except Exception as e:
 	print('𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺')
 for xd in range(10000):
