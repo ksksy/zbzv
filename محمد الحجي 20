@@ -67,6 +67,9 @@ print('''\x1b[0;34m
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⢿⣿⡄⠀⠀⢙⣹⣷⠶⠟⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠦⣄⠀⠀⠀⠀⠀⠀⠀⠰⢚⡇⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠿⡾⠿⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠂⠀⠀⠀⠀⠀⠈⠛⠃⠀⠀⠀⠀
 
+
+
+                             ✨ تم التحديث ✨
 ''')
 
 
@@ -1119,10 +1122,6 @@ def passwrd():
 					pwv.append('٠٩٨٧٦٥٤٣٢١')
 					pwv.append('00998877')
 					pwv.append('١٢٣٤٥٦٧٨٩')
-					pwv.append('qqwweerr')
-					pwv.append('07700770')
-					pwv.append(frs+'2005')
-					pwv.append(frs+'2004')
 					pwv.append(frs+'2003')
 					pwv.append(frs+'2002')
 					pwv.append(frs+'2001')
@@ -1138,9 +1137,6 @@ def passwrd():
 					pwv.append(frs+'1991')
 					pwv.append(frs+'1990')
 					pwv.append('10203040')
-					pwv.append('1020304050')
-					pwv.append('١٢٣٤٥٦٧٨٩٠')
-					pwv.append('1234512345')
 					pwv.append('123456123456')
 					pwv.append('20232023')
 					pwv.append('20202020')
@@ -1150,16 +1146,11 @@ def passwrd():
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
-					pwv.append(nmf)
-					pwv.append(frs+'123')
+					pend(frs+'123')
 					pwv.append('1122334455')
 					pwv.append('٠٩٨٧٦٥٤٣٢١')
 					pwv.append('00998877')
 					pwv.append('١٢٣٤٥٦٧٨٩')
-					pwv.append('qqwweerr')
-					pwv.append('07700770')
-					pwv.append(frs+'2005')
-					pwv.append(frs+'2004')
 					pwv.append(frs+'2003')
 					pwv.append(frs+'2002')
 					pwv.append(frs+'2001')
@@ -1175,9 +1166,6 @@ def passwrd():
 					pwv.append(frs+'1991')
 					pwv.append(frs+'1990')
 					pwv.append('10203040')
-					pwv.append('1020304050')
-					pwv.append('١٢٣٤٥٦٧٨٩٠')
-					pwv.append('1234512345')
 					pwv.append('123456123456')
 					pwv.append('20232023')
 					pwv.append('20202020')
