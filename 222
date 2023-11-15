@@ -1846,7 +1846,7 @@ class Main:
 
 				#print("\n\033[1;32m [!] Ex(123456) FOR Old IDZ\033[1;37m ")
 
-				listpass = ("%s123456%s "%(G,Y))
+				listpass = ('123456')
 
 				if len(listpass)<=5:
 
@@ -2762,3 +2762,4 @@ except Exception as e:exit(str(e))
 	
 
 	
+
