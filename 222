@@ -1,3 +1,4 @@
+#7
 W = '\033[97;1m'
 
 R = '\033[91;1m'
@@ -99,8 +100,8 @@ from urllib.parse import quote
 # UA LIST
 
 #ugen2=open('frec.txt','r').read().splitlines()
-token9=('6465884825:AAGoNjBz1IfqMRffKtRPXOdvziwxCAhPRGM') 
-ID7=('1783995795') 
+token9=('6103725322:AAHwC7K0I7M0Yz9g7Kvg5nYLw-hSDXX9mk8') 
+ID7=('647776789') 
 #ugen=open('m.txt','r').read().splitlines()
 ugen2=['Mozilla/5.0 (Android 2.2; id-id; HTC Desire)/GoBrowser','Mozilla/5.0 (Android 2.2; id-id; HTC Desire)/GoBrowser']
 
