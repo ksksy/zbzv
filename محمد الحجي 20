@@ -1146,7 +1146,7 @@ def passwrd():
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
-					pend(frs+'123')
+					
 					pwv.append('1122334455')
 					pwv.append('٠٩٨٧٦٥٤٣٢١')
 					pwv.append('00998877')
